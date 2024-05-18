@@ -4,16 +4,16 @@ const Experience = () => {
   return (
     <div className="w-full flex flex-col text-white  items-center pt-5">
       <h2 className="text-2xl md:text-4xl font-bold">Experience</h2>
-      <div className="flex flex-col justify-start items-start gap-2 md:gap-5 md:mt-5">
+      <div className="w-3/4 md:w-full flex flex-col justify-start items-start gap-2 md:gap-5 md:mt-5">
         <div>
           <p className="font-semibold text-lg md:text-3xl">
             Software Development Consultant
           </p>
-          <div className="flex flex-row justify-between text-sm md:text-xl">
+          <div className="flex flex-row justify-between text-md md:text-xl">
             <span>Oqton</span>
             <span>June 2023 - Present</span>
           </div>
-          <div className="text-md">
+          <div className="text-sm md:text-md">
             <li>
               Orchestrated the development of Python adapters to seamlessly
               translate data across diverse protocols (OPCUA, MODBUS, MQTT,
@@ -41,11 +41,11 @@ const Experience = () => {
           <p className="font-semibold text-lg md:text-3xl">
             {`Junior Software Engineer (Intern)`}
           </p>
-          <div className="flex flex-row justify-between text-sm md:text-xl">
+          <div className="flex flex-row justify-between text-md md:text-xl">
             <span>Oqton</span>
             <span>Dec 2023 - May 2023</span>
           </div>
-          <div className="text-md">
+          <div className="text-sm md:text-md">
             <li>
               Worked with React TypeScript and ChartJs to develop a new user
               interface for an existing Telemetry application which helped boost

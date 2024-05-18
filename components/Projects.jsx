@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="w-full flex flex-col text-white  items-center pt-5">
       <h2 className="text-2xl md:text-4xl font-bold">Projects</h2>
-      <div className="flex flex-col justify-start items-start gap-2 md:gap-5 md:mt-5">
+      <div className="w-3/4 md:w-full flex flex-col justify-start items-start gap-2 md:gap-5 md:mt-5">
         <div>
           <h2 className="font-semibold text-lg md:text-3xl">Sprint Board</h2>
           <p className="text-sm md:text-xl">

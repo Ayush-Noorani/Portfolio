@@ -15,7 +15,7 @@ const SoftwareSkills = () => {
     ["AWS", "50"],
   ];
   return (
-    <div className="w-full flex flex-col text-white items-center pt-5 ">
+    <div className="w-full flex flex-col text-white items-center pt-5">
       <h2 className="text-2xl md:text-4xl font-bold">Software Skills</h2>
       <div className=" w-1/2 flex flex-col items-center md:mt-5">
         {skills.map((skill, index) => {
