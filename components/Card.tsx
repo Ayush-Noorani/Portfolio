@@ -56,7 +56,7 @@ const Card = ({ name }: CardProps) => {
                 Noorani
               </p>
               <p className="text:xl md: text-xl lg:text-3xl">
-                Software Developer
+                Software Engineer | Front-end Developer & DevOps Enthusiast
               </p>
             </div>
           </div>
