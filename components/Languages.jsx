@@ -13,7 +13,10 @@ const Languages = () => {
       <div className=" w-1/2 flex flex-col items-center md:mt-5">
         {skills.map((skill, index) => {
           return (
-            <div className="w-full flex flex-row justify-between items-center md:w-3/4">
+            <div
+              className="w-full flex flex-row justify-between items-center md:w-3/4"
+              key={index}
+            >
               <h3 className="text-sm md:text-2xl">{skill[0]}</h3>
               <input
                 type="range"
